@@ -1,0 +1,62 @@
+body,html {
+    margin: 0px;
+    padding: 50px 100px;
+    background-color: #c4c4c4;
+    font-size: 16px;
+}
+
+.h-input-wrapper {
+    background-color: white;
+    padding: 4px 12px;
+    border: 1px solid #000;
+}
+.h-input {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    background-color: transparent;
+}
+
+
+
+/* ALERT STYLE */
+.h-alert-box {
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 15px;
+    right: 65px;
+    color: #fff;
+    font-size: 20px;
+}
+.h-alert-box.success {
+    background-color: green;
+}
+.h-alert-box.error {
+    background-color: red;
+}
+.h-alert-box.warning{
+    background-color: yellow;
+}
+.h-alert-box.progress {
+    background-color: blue;
+}
+
+/* CARD STYLES */
+.h-card {
+    padding: 32px;
+    background-color: white;
+    border-radius: 10px;
+}
+.h-card-border {
+    border: 1px solid #454545;
+}
+.h-card-shadow {
+    box-shadow: turquoise;
+}
+.h-card-flat {
+    border-radius: none;
+}

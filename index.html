@@ -1,0 +1,24 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="components/input.js" type="text/javascript" defer></script>
+    <script src="components/alert.js" type="text/javascript" defer></script>
+    <script src="components/card.js" type="text/javascript" defer></script>
+    <title>Custom Components</title>
+</head>
+
+<body>
+    <card-component>
+        <span slot="form-el">
+            <input-component label="Username/Email" type="text"></input-component>
+            <input-component label="Password" type="Password"></input-component>
+        </span>
+    </card-component>
+    <alert-component msg="Hello world" success></alert-component>
+</body>
+
+</html>
